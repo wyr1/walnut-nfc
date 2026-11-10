@@ -129,6 +129,7 @@
   }
   .cap b{font-weight:500;color:#ded9d0;letter-spacing:.04em;}
   .cap span{font-size:11px;color:#67635d;}
+  .frame img{object-position:center;}
 
   /* ---------- 流程 ---------- */
   .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px;}
@@ -206,7 +207,7 @@
     <div class="badge">認證 · CERTIFIED</div>
     <div class="slogan">千疆易得 &nbsp;·&nbsp; <em>一将难求</em></div>
     <p class="lede">只做看得清品相的文玩核桃。实拍、实测、立档，每一份出品都<b>有一张自己的卡</b>。</p>
-    <a class="cta" href="#picks">浏览核桃臻选 <span>→</span></a>
+    <a class="cta" href="#picks">看看客户实拍 <span>→</span></a>
 
     <div class="feats">
       <div class="feat"><i>壹</i><b>只出看得清的品相</b><span>实拍不修图，尺寸克重全标注</span></div>
@@ -218,21 +219,18 @@
 
   <div class="wrap"><div class="hair"></div></div>
 
-  <!-- 臻选：图片位置写死在这里 -->
+  <!-- 客户实拍：图片写死在这里 -->
   <section id="picks">
     <div class="wrap">
-      <div class="eyebrow">S E L E C T I O N</div>
-      <h2>本期臻选</h2>
-      <p class="sec-desc">从在售出品中挑出四对，桩型、配对与皮质各有侧重。点开可看四组实拍与实测参数。</p>
+      <div class="eyebrow">F E E D B A C K</div>
+      <h2>客户实拍</h2>
+      <p class="sec-desc">都是客户收到实物后自己拍的，原图直出、不修不调。纹路、皮质、配对不对得上，看图最直接。</p>
 
       <div class="grid">
 
-        <!-- ① 换图：把 src="" 改成图片地址即可，例如 src="images/A001.jpg"
-             放好图后占位框会自动消失，不用删任何东西 -->
-        <div class="card" data-code="A001">
+        <div class="card has-img">
           <div class="frame">
-            <span class="code">A001</span>
-            <img src="" alt="狮子头 · 四座楼 实拍">
+            <img src="images/01.jpg" alt="客户实拍 01">
             <div class="empty">
               <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 7h3l2-2h8l2 2h3v12H3z"/><circle cx="12" cy="13" r="4"/>
@@ -240,13 +238,12 @@
               <span>实拍图位置</span>
             </div>
           </div>
-          <div class="cap"><b>狮子头 · 四座楼</b><span>A001</span></div>
+          <div class="cap"><b>客户实拍</b></div>
         </div>
 
-        <div class="card" data-code="A002">
+        <div class="card has-img">
           <div class="frame">
-            <span class="code">A002</span>
-            <img src="" alt="南疆石 · 满纹 实拍">
+            <img src="images/02.jpg" alt="客户实拍 02">
             <div class="empty">
               <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 7h3l2-2h8l2 2h3v12H3z"/><circle cx="12" cy="13" r="4"/>
@@ -254,13 +251,12 @@
               <span>实拍图位置</span>
             </div>
           </div>
-          <div class="cap"><b>南疆石 · 满纹</b><span>A002</span></div>
+          <div class="cap"><b>客户实拍</b></div>
         </div>
 
-        <div class="card" data-code="A003">
+        <div class="card has-img">
           <div class="frame">
-            <span class="code">A003</span>
-            <img src="" alt="官帽 · 矮桩 实拍">
+            <img src="images/03.jpg" alt="客户实拍 03">
             <div class="empty">
               <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 7h3l2-2h8l2 2h3v12H3z"/><circle cx="12" cy="13" r="4"/>
@@ -268,13 +264,12 @@
               <span>实拍图位置</span>
             </div>
           </div>
-          <div class="cap"><b>官帽 · 矮桩</b><span>A003</span></div>
+          <div class="cap"><b>客户实拍</b></div>
         </div>
 
-        <div class="card" data-code="A004">
+        <div class="card has-img">
           <div class="frame">
-            <span class="code">A004</span>
-            <img src="" alt="磨盘 · 宽边 实拍">
+            <img src="images/04.jpg" alt="客户实拍 04">
             <div class="empty">
               <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M3 7h3l2-2h8l2 2h3v12H3z"/><circle cx="12" cy="13" r="4"/>
@@ -282,7 +277,33 @@
               <span>实拍图位置</span>
             </div>
           </div>
-          <div class="cap"><b>磨盘 · 宽边</b><span>A004</span></div>
+          <div class="cap"><b>客户实拍</b></div>
+        </div>
+
+        <div class="card has-img">
+          <div class="frame">
+            <img src="images/05.jpg" alt="客户实拍 05">
+            <div class="empty">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7h3l2-2h8l2 2h3v12H3z"/><circle cx="12" cy="13" r="4"/>
+              </svg>
+              <span>实拍图位置</span>
+            </div>
+          </div>
+          <div class="cap"><b>客户实拍</b></div>
+        </div>
+
+        <div class="card has-img">
+          <div class="frame">
+            <img src="images/06.jpg" alt="客户实拍 06">
+            <div class="empty">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7h3l2-2h8l2 2h3v12H3z"/><circle cx="12" cy="13" r="4"/>
+              </svg>
+              <span>实拍图位置</span>
+            </div>
+          </div>
+          <div class="cap"><b>客户实拍</b></div>
         </div>
 
       </div>
